@@ -1,11 +1,16 @@
-What?
-=====
+vimux-zeus
+==========
 
 [vimux](https://github.com/benmills/vimux) and
 [zeus](https://github.com/burke/zeus) in action.
 
-How?
-====
+Installation
+============
+
+Put the contents of this directory into your pathogen bundle.
+
+Usage
+=====
 
 * ZeusStart
 * ZeusInit
@@ -20,11 +25,6 @@ How?
 * ZeusDbconsole
 * ZeusRake
 * ZeusGenerate
-
-Install
-=======
-
-Put the contents of this directory into your pathogen bundle.
 
 Requirements
 ============
