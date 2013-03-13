@@ -1,16 +1,13 @@
-vimux-zeus
-==========
+# vimux-zeus
 
 [vimux](https://github.com/benmills/vimux) and
 [zeus](https://github.com/burke/zeus) in action.
 
-Installation
-============
+## Installation
 
 Put the contents of this directory into your pathogen bundle.
 
-Usage
-=====
+## Usage
 
 The function `ZeusCommand(cmd, args)` is the core of vimux-zeus. It will
 run a zeus command in a vimux window:
@@ -24,8 +21,7 @@ them as needed like this:
     map <Leader> zr :ZeusRake spec<CR>
     map <Leader> zg :ZeusGenerate<space>
 
-Commands
-========
+## Commands
 
 * ZeusStart
 * ZeusInit
@@ -41,8 +37,15 @@ Commands
 * ZeusRake
 * ZeusGenerate
 
-Requirements
-============
+## Requirements
 
 * [vimux](https://github.com/benmills/vimux)
 * [zeus](https://github.com/burke/zeus)
+
+## Contributing
+
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
