@@ -17,9 +17,9 @@ run a zeus command in a vimux window:
 There are also a number of pre-defined [commands](#commands). You can easily map
 them as needed like this:
 
-    map <Leader> zc :ZeusConsole<CR>
-    map <Leader> zr :ZeusRake spec<CR>
-    map <Leader> zg :ZeusGenerate<space>
+    map <Leader>zc :ZeusConsole<CR>
+    map <Leader>zr :ZeusRake spec<CR>
+    map <Leader>zg :ZeusGenerate<space>
 
 ## Commands
 
